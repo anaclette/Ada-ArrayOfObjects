@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Adopcion de mascotas. Clase 65 - Arrays de objetos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div>#AdoptAdas</div>
+        <i class="fa fa-bars"></i>
+    </nav>
+
+    <section class="main">
+        <div class="main_info">
+            <h2>Adopta un gatito</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p>
+                Suspendisse auctor urna blandit ultricies maximus. Sed accumsan auctor
+                lacus ac mattis. Mauris at nibh purus. Nullam vulputate, urna value
+                facilisis eleifend, nisl turpis suscipit augue, eget tincidunt velit
+                nunc ut lectus. Phasellus viverra nec augue at iaculis. Nullam
+                scelerisque tincidunt sapien vitae sodales. Sed tristique ut nulla a
+                ultricies. Aliquam sit amet sodales elit, et pellentesque lorem.
+                Praesent quis nibh value arcu porta lobortis. Morbi rutrum ut risus sed
+                hendrerit. Integer laoreet odio nec nisi varius, at scelerisque nisi
+                rhoncus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam dolorum temporibus fuga voluptatum vero, dolore tempore neque
+                saepe quo reiciendis?
+            </p>
+        </div>
+        <div class="main_img">
+            <img src="img/main_img.jpg" />
+        </div>
+    </section>
+
+    <section class="form">
+        <form>
+            <input type="radio" name="sexo" value="m">Masculino
+            <input type="radio" name="sexo" value="f">Femenino
+            <input type="radio" name="sexo" value="i">Indistinto
+
+            <input type="submit" value="Buscar">
+        </form>
+
+    </section>
+
+    <section class="adopt">
+    </section>
+
+    <div class="footer">
+        <div class="footer_icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-google-plus"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-dribbble"></i>
+        </div>
+        <p>© 2020 | All Rights Reserved</p>
+    </div>
+
+    <div class="overlay oculto"> </div>
+    <div id="modal" class="modal oculto">
+        <button class="cerrar-modal"><i class="far fa-times-circle"></i></button>
+        <div class="contenido-modal">
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
